@@ -1,0 +1,50 @@
+:root {
+    background-color: black;
+    color: white;
+    --hover-green: #66fbee;
+    --dark-purple: #37266b;
+    --light-purple: #9380dc;
+}
+
+a {
+
+}
+
+h1 {
+
+}
+
+header {
+
+}
+
+main {
+
+
+}
+
+footer {
+
+}
+
+.image-cropper {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#manu-img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
