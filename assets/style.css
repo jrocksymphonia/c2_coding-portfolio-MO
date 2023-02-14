@@ -28,8 +28,8 @@ footer {
 }
 
 .crop-circle {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -42,9 +42,19 @@ footer {
     width: auto;
 }
 
+#bb-manu {
+    display: inline;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+}
+
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 
