@@ -1,30 +1,60 @@
 :root {
     background-color: black;
     color: white;
-    --hover-green: #66fbee;
+    --minty-green: #66fbee;
     --dark-purple: #37266b;
     --light-purple: #9380dc;
 }
 
-a {
-
+hr.rounded{
+    border-top: 3px solid var(--minty-green);
+    border-radius: 99%;
 }
 
 h1 {
-
+    padding-bottom: 10px;
+    text-align: center;
 }
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: var(--minty-green);
+}
+
+h3 {
+    font-size: 22px;
+}
+
+a {
+    color: var(--light-purple);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--minty-green);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.img-link:hover {
+    padding: 0;
+    transform: scale(1.25);
+}
+
 
 header {
-
-}
-
-main {
-
-
-}
-
-footer {
-
+    font-size: 40px;
+    color: var(--minty-green);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .crop-circle {
@@ -36,25 +66,96 @@ footer {
 }
 
 #manu-img {
-    display: inline;
-    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 100%;
     width: auto;
 }
 
+nav ul{
+    text-align: center;
+    font-size: 20px;
+}
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 #bb-manu {
     display: inline;
-    margin: 0 auto;
+    margin: 40px;
     height: 300px;
     width: 300px;
 }
 
-img {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+#about-me-content {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    border: 10px;
+    border-color: var(--minty-green);
+    margin: 100px;
+    
 }
+
+#my-work {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#see-more {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-card {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    .projects {
+      width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .projects {
+        width: 50%;
+    }
+    #manu-img {
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    #manu-img {
+        width: 100%;
+    }
+
+    #bb-manu {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .projects {
+        width: 100%;
+    }
+  }
+
 
 
