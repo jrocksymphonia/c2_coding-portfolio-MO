@@ -17,88 +17,98 @@
         </section>
     </header>
 
+    <hr class= "rounded">
+
+    <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#my-work">My Work</a></li>
+          <li><a href="#see-more">See More!</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <hr class= "rounded">
+
     <main>
-        <nav>
-            <ul>
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">My Work</a></li>
-              <li><a href="#">See More!</a></li>
-              <li><a href="#">Contact Me</a></li>
-            </ul>
-        </nav>
-
-        
-
-        <section class="about-me">
+        <section id="about-me">
             <figure>
                 <img id="bb-manu" src="./assets/images/bbmanu_square.jpg" alt="Baby Manu">
             </figure>
-            <h2>About Me!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
-
+            <section id="about-me-content">
+                <h2>About Me!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
+            </section>
+            
         </section>
 
-        <section class="my-work">
+
+        <section id="my-work">
             <h2>My Work</h2>
+            
+            <section class="img-group">
+                <div class="img-card">
+                    <h3>Prework Study Guide</h3>
+                    <h4>(Basics of HTML, CSS, and JS)</h4>
+                    <a href="https://jrocksymphonia.github.io/prework-study-guide/" >
+                        <img class="img-link" src="./assets/images/bowtie-cat.png" alt="Prework Study Guide Bowtie Cat">
+                    </a>
 
-            <div class="prework-study-guide">
-                <h3>Prework Study Guide</h3>
-                <a href="https://jrocksymphonia.github.io/prework-study-guide/" >
-                    <img src="./assets/images/bowtie-cat.png" alt="Prework Study Guide Bowtie Cat">
-                </a>
-                <p>Basics of HTML, CSS, and JS</p>
+                </div>    
 
-            </div>    
+                <div class="img-card">
+                    <h3>Horiseon</h3>
+                    <h4>(HTML Semantic Coding and Accessibility)</h4>
+                    <a href="https://jrocksymphonia.github.io/Challenge-1/">
+                        <img class="img-link" src="https://via.placeholder.com/200/2a607c/FFFFFF/?text=Horiseon" alt="Challenge 1 Placeholder">
+                    </a>
+                </div>
 
-            <div class="horiseon">
-                <h3>Horiseon</h3>
-                <a href="https://jrocksymphonia.github.io/Challenge-1/">
-                    <img src="https://via.placeholder.com/200/2a607c/FFFFFF/?text=Horiseon" alt="Challenge 1 Placeholder">
-                </a>
-                <p>HTML Semantic Coding and Accessibility</p>
-            </div>
+                <div class="img-card">
+                    <h3>Password Generator</h3>
+                    <h4>(Coming Soon!)</h4>
+                    <a href="#">
+                        <img class="img-link" src="./assets/images/manu-cartoon.PNG" alt="Manu in Overalls Cartoon Holding Tea">
+                    </a>
+                </div>
 
-            <div class="coming-soon">
-                <h3>Password Generator</h3>
-                <a href="#">
-                    <img src="./assets/images/manu-cartoon.PNG" alt="Manu in Overalls Cartoon Holding Tea">
-                </a>
-                <p>Coming Soon!</p>
-            </div>
-
-            <div class="coming-soon">
-                <h3>JS Fundamentals Timed Quiz</h3>
-                <a href="#">
-                    <img src="./assets/images/manu-cartoon.PNG" alt="Manu in Overalls Cartoon Holding Tea">
-                </a>
-                <p>Coming Soon!</p>
-            </div>
+                <div class="img-card">
+                    <h3>JS Fundamentals Timed Quiz</h3> 
+                    <h4>(Coming Soon!)</h4>
+                    <a href="#">
+                        <img class="img-link" src="./assets/images/manu-cartoon.PNG" alt="Manu in Overalls Cartoon Holding Tea">
+                    </a>
+                </div>
+            </section>
 
         </section>
 
-        <section class="see-more">
-            <h2>See More!</h2>
-            <div class="resume">
-                <h3>Resume</h3>
-                <a href="#">
-                    <img src="https://via.placeholder.com/200/9380dc/66fbee/?text=Resume" alt="Resume Placeholder">
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
-            </div>
 
-            <div class="github">
-                <h3>GitHub</h3>
-                <a href="https://github.com/jrocksymphonia">
-                    <img src="./assets/images/github-mark-white1.png" alt="Link to GitHub Profile">
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
-            </div>
+        <section id="see-more">
+            <h2>See More!</h2>
+            <section class="img-group">
+                <div class="img-card">
+                    <h3>Resume</h3>
+                    <a href="#">
+                        <img class="img-link" src="https://via.placeholder.com/200/37266b/66fbee/?text=Resume" alt="Resume Placeholder">
+                    </a>
+                </div>
+
+                <div class="img-card">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/jrocksymphonia">
+                        <img class="img-link" src="./assets/images/github-mark-white1.png" alt="Link to GitHub Profile">
+                    </a>
+                </div>
+            </section>
         </section>
 
     </main>
 
+    <hr class= "rounded">
+
     <footer>
-        <h2>Contact me</h2>
+        <h2 id="contact-me">Contact me</h2>
         <nav>
             <ul>
               <li><a href="miosorio09@gmail.com">Email</a></li>
