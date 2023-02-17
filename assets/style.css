@@ -63,12 +63,12 @@ header {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #manu-img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 100%;
     width: auto;
 }
@@ -86,19 +86,22 @@ nav ul{
 }
 
 #bb-manu {
-    display: inline;
-    margin: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
     width: 300px;
 }
 
 #about-me-content {
+    height: 300px;
+    width: 300px;
     text-align: center;
     vertical-align: middle;
     padding: 10px;
     border: 10px;
     border-color: var(--minty-green);
-    margin: 100px;
+    margin: auto;
     
 }
 
