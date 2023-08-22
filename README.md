@@ -7,9 +7,10 @@ This project is intended to show my understanding of building my first webpage f
 
 The webpage is based off the original sketch I made here:
 
-    ```md
-    ![portfolio-sketch](./assets/images/css-portfolio-sketch.jpg)
-    ```
+
+![portfolio-sketch](./assets/images/css-portfolio-sketch.jpg)
+
+
 See the usage portion to see what it's all about!
 
 ## Installation
