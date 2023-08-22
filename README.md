@@ -8,7 +8,7 @@ This project is intended to show my understanding of building my first webpage f
 The webpage is based off the original sketch I made here:
 
     ```md
-    ![portfolio-sketch](./assets/images/portfolio_sketch.HEIC)
+    ![portfolio-sketch](./assets/images/css-portfolio-sketch.jpg)
     ```
 See the usage portion to see what it's all about!
 
@@ -18,7 +18,7 @@ N/A
 
 ## Usage
 
-When you open the page it will load a large picture of me with the message "Welcome!". right below is the `<nav>` bar of all the sections in my portfolio, where you can hover over the any light-purple word (which turns green) and it will jump to a new section on the page. My "about me" has an image of baby me (for fun) and a blurb of text below. Under that has all of my work with images and titles, where if you hover over an image it will expand showing the link attached to it, which will take you to the deployed site of that project. Below that is a "see more" section which has image links to my resume and my GitHub profile. The footer is its own `<nav>` bar and it has all of my contact info including my social media. Inspect more by opening Google Chrome DevTools or any other code inspection tool on your default browser to view the HTML and CSS setups.  
+When you open the page it will load a large picture of me with the message "Welcome!". right below is the `<nav>` bar of all the sections in my portfolio, where you can hover over the any light-purple word (which turns green) and it will jump to a new section on the page. My "about me" has an image of baby me and a blurb of text below. Under that has all of my work with images and titles, where if you hover over an image it will expand showing the link attached to it, which will take you to the deployed site of that project. Below that is a "see more" section which has image links to my resume and my GitHub profile. The footer is its own `<nav>` bar and it has all of my contact info including my social media. Inspect more by opening Google Chrome DevTools or any other code inspection tool on your default browser to view the HTML and CSS setups.  
 
 ## Credits
 
